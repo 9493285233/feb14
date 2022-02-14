@@ -1,0 +1,10 @@
+n=int(input("enter number:"))
+sum=0
+while n>0:
+    num=n%10
+    sum=sum+num
+    n=n//10
+print("number of digits in a number:",sum)    
+
+output:enter number:25548589
+number of digits in a number: 46
