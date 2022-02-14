@@ -1,0 +1,9 @@
+n=int(input("enter number:"))
+digits=0
+while n>0:
+    digits=digits+1
+    n=n//10
+print("number of digits in a number:",digits) 
+
+output:enter number:253
+number of digits in a number: 3
